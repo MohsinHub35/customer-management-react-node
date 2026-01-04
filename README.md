@@ -1,5 +1,5 @@
 # customer-management-react-node
-# Customer Management App
+# Customer Management App by Energytec.ai
 
 ## Tech Stack
 - React JS
