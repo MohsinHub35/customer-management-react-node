@@ -1,0 +1,103 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #0056b3 !important; /* Darker blue */
+}
+
+.navbar-brand, .nav-link {
+  color: white !important;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.nav-link:hover {
+  color: #ffdd59 !important;
+}
+
+/* Hero Section */
+.home-hero {
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  padding: 120px 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 25px rgba(0,0,0,0.15);
+  margin-bottom: 40px;
+}
+
+.hero-title {
+  font-size: 3rem; /* Bigger font */
+  font-weight: 700;
+  color: #070000;
+  margin-bottom: 20px;
+}
+
+.hero-subtitle {
+  font-size: 1.3rem;
+  color: #190b5c;
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+/* Cards and Forms */
+.card {
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Buttons */
+button, .btn {
+  border-radius: 8px;
+  padding: 10px 18px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+button:hover, .btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.btn-success {
+  background-color: #28a745;
+  border: none;
+  color: #fff;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+
+/* Inputs */
+input {
+  border-radius: 6px;
+  padding: 10px 12px;
+  border: 1px solid #ced4da;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+  color: #2c3e50;
+}
+
+/* Customer List Cards */
+.customer-card {
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+  transition: all 0.2s ease;
+}
+
+.customer-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+.x{
+    color:#218838;  
+}
